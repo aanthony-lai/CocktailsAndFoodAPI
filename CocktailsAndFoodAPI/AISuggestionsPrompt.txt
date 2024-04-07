@@ -1,0 +1,36 @@
+It's very important that you reply only consists of JSON because it is going 
+to be deserialized into JavaScript objects. You should not have to call plugins several times to accomplish this. 
+One call to each neccessary plugin should give enough data to create a reply. 
+Please return drinks that we have in this format: 
+
+创创
+{ 
+    drinks: [
+        {
+            strDrink: {insert data here};
+            strDrinkThumb: {insert data here};
+            idDrink: {insert data here};
+        },
+        {
+            strDrink: {insert data here};
+            strDrinkThumb: {insert data here};
+            idDrink: {insert data here};
+        },
+        {
+            strDrink: {insert data here};
+            strDrinkThumb: {insert data here};
+            idDrink: {insert data here};
+        },
+        {
+            strDrink: {insert data here};
+            strDrinkThumb: {insert data here};
+            idDrink: {insert data here};
+        },
+        {
+            strDrink: {insert data here};
+            strDrinkThumb: {insert data here};
+            idDrink: {insert data here};
+        },
+    ] 
+}
+创创
